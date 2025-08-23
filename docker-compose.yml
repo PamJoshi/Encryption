@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  encryption-service:
+    build: .
+    volumes:
+      - .:/app
+      - ./Original_files:/app/Original_files
+      - ./Encrypted_files:/app/Encrypted_files
+      - ./Decrypted_files:/app/Decrypted_files
+      - ./Keys:/app/Keys
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped 
