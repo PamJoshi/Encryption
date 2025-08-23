@@ -93,7 +93,7 @@ Original_files/
 docker-compose.override.yml
 
 # Misc
-*.bak
+*.bak   
 *.swp
 *.swo
 *~
