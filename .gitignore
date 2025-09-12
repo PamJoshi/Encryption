@@ -1,0 +1,114 @@
+###############################
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.py,cover
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Environments
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive/large files
+Keys/
+*.pem
+*.key
+*.crt
+*.der
+*.p12
+*.pfx
+*.env
+*.sqlite3
+*.db
+
+# Encrypted/Decrypted/Original files
+Encrypted_files/
+Decrypted_files/
+Original_files/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Misc
+*.bak   
+*.swp
+*.swo
+*~
+
+###############################
+
+# Frontend (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/.next/
+frontend/.cache/
+
+###############################
